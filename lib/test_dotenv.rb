@@ -1,4 +1,6 @@
-require 'dotenv'# Appelle la gem Dotenv
+# frozen_string_literal: true
+
+require 'dotenv' # Appelle la gem Dotenv
 
 Dotenv.load('../.env') # Ceci appelle le fichier .env (situé dans le même dossier que le programme Ruby) grâce à la gem Dotenv, et importe toutes les données enregistrées dans un hash ENV
 
